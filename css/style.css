@@ -1,0 +1,43 @@
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+#background {
+    display: none;
+}
+
+#startBar {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+    height: 20px;
+    width: 100%;
+
+    background-color: black;
+}
+
+#startButton {
+    position: absolute;
+    bottom: 0px;
+    left:25px;
+
+    height: 30px;
+    width: 30px;
+
+    border: 2px solid white;
+}
+
+#launcherWrapper {
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+
+    height: 300px;
+    width: 200px;
+
+    background-color: black;
+
+    display: none;
+}
